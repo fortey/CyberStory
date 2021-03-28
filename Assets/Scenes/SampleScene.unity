@@ -804,7 +804,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 149774542}
-        m_TargetAssemblyTypeName: Draw, Assembly-CSharp
+        m_TargetAssemblyTypeName: Puzzle, Assembly-CSharp
         m_MethodName: SelectNode
         m_Mode: 2
         m_Arguments:
@@ -2442,7 +2442,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 149774542}
-        m_TargetAssemblyTypeName: Draw, Assembly-CSharp
+        m_TargetAssemblyTypeName: Puzzle, Assembly-CSharp
         m_MethodName: SelectNode
         m_Mode: 2
         m_Arguments:

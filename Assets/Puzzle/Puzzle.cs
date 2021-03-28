@@ -38,6 +38,7 @@ public class Puzzle : MonoBehaviour
     void Start()
     {
         lines = new ArrayList();
+        CreateMini();
     }
     public void StartPuzzle()
     {
@@ -95,7 +96,7 @@ public class Puzzle : MonoBehaviour
                 Win();
             }
         }
-        
+
     }
 
     Vector2 setPoint(Vector2 point)
@@ -103,21 +104,6 @@ public class Puzzle : MonoBehaviour
         point.x = (int)point.x;
         point.y = Screen.height - (int)point.y;
         return point;
-    }
-
-    float difference(float val1, float val2)
-    {
-        float diff = val1 - val2;
-        if (diff < 0)
-            diff = -diff;
-        return diff;
-    }
-
-    float average(float val1, float val2)
-    {
-        float avg = (int)val1 + (int)val2;
-        avg = avg / 2;
-        return avg;
     }
 
     void addGUILine(GUILine line)
@@ -141,10 +127,11 @@ public class Puzzle : MonoBehaviour
         Matrix4x4 matrixBackup = GUI.matrix;
         float width = 10.0f;
         GUI.color = Color.black;
+
         float angle = Mathf.Atan2(pointB.y - pointA.y, pointB.x - pointA.x) * 180f / Mathf.PI;
 
         GUIUtility.RotateAroundPivot(angle, pointA);
-        GUI.DrawTexture(new Rect(pointA.x, pointA.y, length, width), lineTex);
+        GUI.DrawTexture(new Rect(pointA.x - 3, pointA.y - width / 2, length + 3, width), lineTex);
         GUI.matrix = matrixBackup;
     }
 
@@ -202,5 +189,23 @@ public class Puzzle : MonoBehaviour
     public void OnOutsideClick()
     {
         ChangeCurrentNode(null);
+    }
+
+    void CreateMini()
+    {
+        var offsetY = Screen.height - Screen.height / 5 -50;
+        foreach (var pair in pairs)
+        {
+            newline = new GUILine();
+            newline.startPt = pair.start.position;
+            newline.startPt.x /= 5;
+            newline.startPt.y /= 5;
+            newline.startPt.y += offsetY;
+            newline.endPt = pair.end.position;
+            newline.endPt.x /= 5;
+            newline.endPt.y /= 5;
+            newline.endPt.y += offsetY;
+            addGUILine(newline);
+        }
     }
 }
