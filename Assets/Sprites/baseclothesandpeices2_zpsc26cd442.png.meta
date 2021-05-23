@@ -1,0 +1,1644 @@
+fileFormatVersion: 2
+guid: 44e1e813b6638e1458ac3ce1c8068422
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3276736660434163532
+    second: baseclothesandpeices2_zpsc26cd442_0
+  - first:
+      213: 873956955222857490
+    second: baseclothesandpeices2_zpsc26cd442_1
+  - first:
+      213: 4690811956603559341
+    second: baseclothesandpeices2_zpsc26cd442_2
+  - first:
+      213: -6010153199816261073
+    second: baseclothesandpeices2_zpsc26cd442_3
+  - first:
+      213: -1687977334443801969
+    second: baseclothesandpeices2_zpsc26cd442_4
+  - first:
+      213: 515818751736659889
+    second: baseclothesandpeices2_zpsc26cd442_5
+  - first:
+      213: 2148761669465372068
+    second: baseclothesandpeices2_zpsc26cd442_6
+  - first:
+      213: -3315939855234320691
+    second: baseclothesandpeices2_zpsc26cd442_7
+  - first:
+      213: -3513269770771610253
+    second: baseclothesandpeices2_zpsc26cd442_8
+  - first:
+      213: -6623601781950798431
+    second: baseclothesandpeices2_zpsc26cd442_9
+  - first:
+      213: 8143358958773327431
+    second: baseclothesandpeices2_zpsc26cd442_10
+  - first:
+      213: 3653450802560454214
+    second: baseclothesandpeices2_zpsc26cd442_11
+  - first:
+      213: -6619474446968386708
+    second: baseclothesandpeices2_zpsc26cd442_12
+  - first:
+      213: -6381944283455825474
+    second: baseclothesandpeices2_zpsc26cd442_13
+  - first:
+      213: -8647740094868485980
+    second: baseclothesandpeices2_zpsc26cd442_14
+  - first:
+      213: 8487526805086416842
+    second: baseclothesandpeices2_zpsc26cd442_15
+  - first:
+      213: -4359904770559769122
+    second: baseclothesandpeices2_zpsc26cd442_16
+  - first:
+      213: 5919968266376993194
+    second: baseclothesandpeices2_zpsc26cd442_17
+  - first:
+      213: -2871023531355020169
+    second: baseclothesandpeices2_zpsc26cd442_18
+  - first:
+      213: 2349777071029350496
+    second: baseclothesandpeices2_zpsc26cd442_19
+  - first:
+      213: 7669609426982634103
+    second: baseclothesandpeices2_zpsc26cd442_20
+  - first:
+      213: -3696992060874736722
+    second: baseclothesandpeices2_zpsc26cd442_21
+  - first:
+      213: 4231601710048771400
+    second: baseclothesandpeices2_zpsc26cd442_22
+  - first:
+      213: 6978641755959547125
+    second: baseclothesandpeices2_zpsc26cd442_23
+  - first:
+      213: 5397077383342673247
+    second: baseclothesandpeices2_zpsc26cd442_24
+  - first:
+      213: -3375794839617081472
+    second: baseclothesandpeices2_zpsc26cd442_25
+  - first:
+      213: 7772978436624783713
+    second: baseclothesandpeices2_zpsc26cd442_26
+  - first:
+      213: -2161524446633673705
+    second: baseclothesandpeices2_zpsc26cd442_27
+  - first:
+      213: 7696670766446765025
+    second: baseclothesandpeices2_zpsc26cd442_28
+  - first:
+      213: -7015938766652259760
+    second: baseclothesandpeices2_zpsc26cd442_29
+  - first:
+      213: 3136448933952225091
+    second: baseclothesandpeices2_zpsc26cd442_30
+  - first:
+      213: -5844347892372373663
+    second: baseclothesandpeices2_zpsc26cd442_31
+  - first:
+      213: 788867111840757998
+    second: baseclothesandpeices2_zpsc26cd442_32
+  - first:
+      213: 6626185748381781082
+    second: baseclothesandpeices2_zpsc26cd442_33
+  - first:
+      213: -6487642518164966981
+    second: baseclothesandpeices2_zpsc26cd442_34
+  - first:
+      213: 5248041970210071001
+    second: baseclothesandpeices2_zpsc26cd442_35
+  - first:
+      213: -4760835890641731716
+    second: baseclothesandpeices2_zpsc26cd442_36
+  - first:
+      213: -7449593986063004062
+    second: baseclothesandpeices2_zpsc26cd442_37
+  - first:
+      213: -1500772280659509617
+    second: baseclothesandpeices2_zpsc26cd442_38
+  - first:
+      213: -9180034310081213383
+    second: baseclothesandpeices2_zpsc26cd442_39
+  - first:
+      213: 9165882301163226249
+    second: baseclothesandpeices2_zpsc26cd442_40
+  - first:
+      213: -3219943938954900213
+    second: baseclothesandpeices2_zpsc26cd442_41
+  - first:
+      213: -5520441534521288852
+    second: baseclothesandpeices2_zpsc26cd442_42
+  - first:
+      213: 6845211587928909885
+    second: baseclothesandpeices2_zpsc26cd442_43
+  - first:
+      213: 4268699800095349536
+    second: baseclothesandpeices2_zpsc26cd442_44
+  - first:
+      213: 3388633323903914426
+    second: baseclothesandpeices2_zpsc26cd442_45
+  - first:
+      213: 2587341022036053761
+    second: baseclothesandpeices2_zpsc26cd442_46
+  - first:
+      213: -303816192955623732
+    second: baseclothesandpeices2_zpsc26cd442_47
+  - first:
+      213: -8580646335609043039
+    second: baseclothesandpeices2_zpsc26cd442_48
+  - first:
+      213: 5645965887849129504
+    second: baseclothesandpeices2_zpsc26cd442_49
+  - first:
+      213: -8028148489928614630
+    second: baseclothesandpeices2_zpsc26cd442_50
+  - first:
+      213: 8931396834425172966
+    second: baseclothesandpeices2_zpsc26cd442_51
+  - first:
+      213: -7106657909037311831
+    second: baseclothesandpeices2_zpsc26cd442_52
+  - first:
+      213: 5406698298274789225
+    second: baseclothesandpeices2_zpsc26cd442_53
+  - first:
+      213: -8614849108092183464
+    second: baseclothesandpeices2_zpsc26cd442_54
+  - first:
+      213: 7646365537155348733
+    second: baseclothesandpeices2_zpsc26cd442_55
+  - first:
+      213: -3130127130616339236
+    second: baseclothesandpeices2_zpsc26cd442_56
+  - first:
+      213: -1428087319127795497
+    second: baseclothesandpeices2_zpsc26cd442_57
+  - first:
+      213: 702717640628046282
+    second: baseclothesandpeices2_zpsc26cd442_58
+  - first:
+      213: 1716165483430346546
+    second: baseclothesandpeices2_zpsc26cd442_59
+  - first:
+      213: 1627461841455819343
+    second: baseclothesandpeices2_zpsc26cd442_60
+  - first:
+      213: -7474719763447074106
+    second: baseclothesandpeices2_zpsc26cd442_61
+  - first:
+      213: 7735728984016271197
+    second: baseclothesandpeices2_zpsc26cd442_62
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 428
+        width: 40
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b862544e51b682d0800000000000000
+      internalID: -3276736660434163532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 431
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2175a09683be02c00800000000000000
+      internalID: 873956955222857490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 394
+        width: 131
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad928d1f9c191140800000000000000
+      internalID: 4690811956603559341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_3
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 461
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2246470285a79ca0800000000000000
+      internalID: -6010153199816261073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 341
+        width: 114
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82019fbe891398e0800000000000000
+      internalID: -1687977334443801969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 346
+        width: 156
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfbfb9fb6e882700800000000000000
+      internalID: 515818751736659889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 400
+        width: 81
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5757f8a5fe1dd10800000000000000
+      internalID: 2148761669465372068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 258
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6b230354a6bf1d0800000000000000
+      internalID: -3315939855234320691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 334
+        width: 105
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3754a01f1cb5e3fc0800000000000000
+      internalID: -3513269770771610253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 321
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5ad2dc54d3414a0800000000000000
+      internalID: -6623601781950798431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 320
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746dd20e3d5030170800000000000000
+      internalID: 8143358958773327431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_11
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 320
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e4bfae52aa3b230800000000000000
+      internalID: 3653450802560454214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_12
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 318
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b8cacdf07e224a0800000000000000
+      internalID: -6619474446968386708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_13
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 315
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9d748bc77ce67a0800000000000000
+      internalID: -6381944283455825474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_14
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 318
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8067f833e0df780800000000000000
+      internalID: -8647740094868485980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 314
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf28ce09a0c9c570800000000000000
+      internalID: 8487526805086416842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 317
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5014006b18e73c0800000000000000
+      internalID: -4359904770559769122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_17
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 300
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa95cfed5c3f72250800000000000000
+      internalID: 5919968266376993194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 301
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774ebcf3f431828d0800000000000000
+      internalID: -2871023531355020169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_19
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 298
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060ff04ebc51c9020800000000000000
+      internalID: 2349777071029350496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 294
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7728945732def6a60800000000000000
+      internalID: 7669609426982634103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 306
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab3f12ee45a1bcc0800000000000000
+      internalID: -3696992060874736722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 303
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d7466d55ba9ba30800000000000000
+      internalID: 4231601710048771400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_23
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 304
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f45daed3bd19d060800000000000000
+      internalID: 6978641755959547125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_24
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 298
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d4f63094546ea40800000000000000
+      internalID: 5397077383342673247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_25
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 298
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fe606aa74c621d0800000000000000
+      internalID: -3375794839617081472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 282
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1699ac184ba2fdb60800000000000000
+      internalID: 7772978436624783713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_27
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 282
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cb311d7f8b002e0800000000000000
+      internalID: -2161524446633673705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 286
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3613b884110da60800000000000000
+      internalID: 7696670766446765025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 293
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052cccf1dd062ae90800000000000000
+      internalID: -7015938766652259760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_30
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 293
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fff5410b7e68b20800000000000000
+      internalID: 3136448933952225091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_31
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 278
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f775b7e84b4eea0800000000000000
+      internalID: -5844347892372373663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_32
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 278
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8b148657e92fa00800000000000000
+      internalID: 788867111840757998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 268
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c4d04c4d0f4fb50800000000000000
+      internalID: 6626185748381781082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_34
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 283
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb17e03b08347f5a0800000000000000
+      internalID: -6487642518164966981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_35
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 283
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d166b8dd5ac4d840800000000000000
+      internalID: 5248041970210071001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_36
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 275
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f7e504bfc1eedb0800000000000000
+      internalID: -4760835890641731716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_37
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 269
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e04d34db9bd9890800000000000000
+      internalID: -7449593986063004062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_38
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 269
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e798aef8f2c2be0800000000000000
+      internalID: -1500772280659509617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_39
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 261
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c06b1de67f99080800000000000000
+      internalID: -9180034310081213383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_40
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 261
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984cfd5d361c33f70800000000000000
+      internalID: 9165882301163226249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_41
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 257
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dcbe92c067053d0800000000000000
+      internalID: -3219943938954900213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_42
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 257
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67db834ca37363b0800000000000000
+      internalID: -5520441534521288852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_43
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 258
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38e3e6fba31ffe50800000000000000
+      internalID: 6845211587928909885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_44
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 134
+        width: 103
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bd6750ad77d3b30800000000000000
+      internalID: 4268699800095349536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_45
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 238
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab11859ed08d60f20800000000000000
+      internalID: 3388633323903914426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_46
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 238
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f414383f418e320800000000000000
+      internalID: 2587341022036053761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_47
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 150
+        width: 97
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc65edd38c0a8cbf0800000000000000
+      internalID: -303816192955623732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_48
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 205
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a704c6be9b6be880800000000000000
+      internalID: -8580646335609043039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_49
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 143
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0266837bf008a5e40800000000000000
+      internalID: 5645965887849129504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 138
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d57bdbb79469090800000000000000
+      internalID: -8028148489928614630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_51
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 140
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3f5ffa912b2fb70800000000000000
+      internalID: 8931396834425172966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_52
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 134
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a85c9fc844106d90800000000000000
+      internalID: -7106657909037311831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_53
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 178
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967b064d473780b40800000000000000
+      internalID: 5406698298274789225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 74
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c139e2168e17880800000000000000
+      internalID: -8614849108092183464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_55
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 73
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8fee0a1f85d1a60800000000000000
+      internalID: 7646365537155348733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_56
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 74
+        width: 90
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4ecc575fd8f84d0800000000000000
+      internalID: -3130127130616339236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_57
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 70
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8d52b462a6e2ce0800000000000000
+      internalID: -1428087319127795497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_58
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 66
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9090398fd80c900800000000000000
+      internalID: 702717640628046282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_59
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 78
+        width: 83
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ff6af1a6b01d710800000000000000
+      internalID: 1716165483430346546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_60
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 78
+        width: 103
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a2a711ce7e59610800000000000000
+      internalID: 1627461841455819343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c235285af5744890800000000000000
+      internalID: -7474719763447074106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseclothesandpeices2_zpsc26cd442_62
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 20
+        width: 83
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57bbfa7684da5b60800000000000000
+      internalID: 7735728984016271197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
