@@ -530,13 +530,21 @@ MonoBehaviour:
   cristals: 99
   EnergyMax: 5
   energy: 5
-  Head: {fileID: 0}
-  Neck: {fileID: 0}
-  Middle: {fileID: 0}
-  Bottom: {fileID: 0}
+  Head: {fileID: 11400000, guid: e029f2dc2af89364c96d99a23b683bda, type: 2}
+  Neck: {fileID: 11400000, guid: f2fdd844d06753240b14ba5aea47c1c0, type: 2}
+  Middle: {fileID: 11400000, guid: a9d390120ef59bd498a2c713c3cb9567, type: 2}
+  Bottom: {fileID: 11400000, guid: 85f8acb9ab12f5e47b6e1329273f8894, type: 2}
   Hacking: 0
   Disguise: 0
-  items: []
+  items:
+  - {fileID: 11400000, guid: e029f2dc2af89364c96d99a23b683bda, type: 2}
+  - {fileID: 11400000, guid: c2c2c300c1aefcb459f29ad9d6a98861, type: 2}
+  - {fileID: 11400000, guid: a9d390120ef59bd498a2c713c3cb9567, type: 2}
+  - {fileID: 11400000, guid: be874d733df94284882f5f65ce6730e2, type: 2}
+  - {fileID: 11400000, guid: f2fdd844d06753240b14ba5aea47c1c0, type: 2}
+  - {fileID: 11400000, guid: ce0686286e0aa1c43bae943cd68f1f11, type: 2}
+  - {fileID: 11400000, guid: 85f8acb9ab12f5e47b6e1329273f8894, type: 2}
+  - {fileID: 11400000, guid: c4f683c34f69b984b8e18e8432a6764d, type: 2}
 --- !u!4 &234686491
 Transform:
   m_ObjectHideFlags: 0
@@ -633,7 +641,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 236379942}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629007440}
+        m_TargetAssemblyTypeName: Wardrobe, Assembly-CSharp
+        m_MethodName: ActivateHead
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &236379942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4012,7 +4032,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1349746516}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629007440}
+        m_TargetAssemblyTypeName: Wardrobe, Assembly-CSharp
+        m_MethodName: ActivateNeck
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1349746516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4133,7 +4165,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1433358127}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629007440}
+        m_TargetAssemblyTypeName: Wardrobe, Assembly-CSharp
+        m_MethodName: PreviousItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1433358127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4611,9 +4655,11 @@ MonoBehaviour:
   Neck: {fileID: 2098394029}
   Middle: {fileID: 1784746384}
   Bottom: {fileID: 259848912}
-  DescImage: {fileID: 0}
+  DescImage: {fileID: 158492504}
   ItemName: {fileID: 2034037846}
   ItemDescription: {fileID: 1905405504}
+  NextButton: {fileID: 1755357613}
+  PreviousButton: {fileID: 1433358126}
 --- !u!1 &1682836456
 GameObject:
   m_ObjectHideFlags: 0
@@ -5038,7 +5084,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1755357614}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629007440}
+        m_TargetAssemblyTypeName: Wardrobe, Assembly-CSharp
+        m_MethodName: NextItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1755357614
 MonoBehaviour:
   m_ObjectHideFlags: 0

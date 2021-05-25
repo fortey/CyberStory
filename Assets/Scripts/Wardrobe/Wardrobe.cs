@@ -15,6 +15,9 @@ public class Wardrobe : MonoBehaviour
 	public Text ItemName;
 	public Text ItemDescription;
 
+	public Button NextButton;
+	public Button PreviousButton;
+
 	private ItemType activeCategory;
 	private Item[] items;
 	private int itemIndex;
@@ -36,6 +39,8 @@ public class Wardrobe : MonoBehaviour
 		categoryImages.Add(ItemType.Neck, Neck);
 		categoryImages.Add(ItemType.Middle, Middle);
 		categoryImages.Add(ItemType.Bottom, Bottom);
+
+		ActivateCategory(ItemType.Head);
 	}
 
 	public void PutOn(Item item)
@@ -89,6 +94,7 @@ public class Wardrobe : MonoBehaviour
 			}
 			ShowDescription(item);
 		}
+		UpdateSwitchButtons();
 	}
 
 	private void ShowDescription(Item item)
@@ -103,4 +109,49 @@ public class Wardrobe : MonoBehaviour
 		ItemDescription.text = desc;
 		DescImage.sprite = item.sprite;
 	}
+
+	private void UpdateSwitchButtons()
+	{
+		NextButton.interactable = itemIndex + 1 < items.Length;
+		PreviousButton.interactable = itemIndex > 0;
+	}
+
+	#region Button handlers
+	public void NextItem()
+	{
+		if (itemIndex + 1 < items.Length)
+		{
+			itemIndex++;
+			PutOn(items[itemIndex]);
+		}
+		UpdateSwitchButtons();
+	}
+
+	public void PreviousItem()
+	{
+		if (itemIndex > 0)
+		{
+			itemIndex--;
+			PutOn(items[itemIndex]);
+		}
+		UpdateSwitchButtons();
+	}
+
+	public void ActivateHead()
+	{
+		ActivateCategory(ItemType.Head);
+	}
+	public void ActivateNeck()
+	{
+		ActivateCategory(ItemType.Neck);
+	}
+	public void ActivateMiddle()
+	{
+		ActivateCategory(ItemType.Middle);
+	}
+	public void ActivateBottom()
+	{
+		ActivateCategory(ItemType.Bottom);
+	}
+	#endregion
 }
