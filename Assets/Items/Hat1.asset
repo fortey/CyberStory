@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   itemName: "\u0428\u0430\u043F\u043A\u0430"
-  sprite: {fileID: -3315939855234320691, guid: 44e1e813b6638e1458ac3ce1c8068422, type: 3}
+  sprite: {fileID: 4690811956603559341, guid: 44e1e813b6638e1458ac3ce1c8068422, type: 3}
   features:
   - characteristic: 0
     value: 1

@@ -31,6 +31,7 @@ public class Wardrobe : MonoBehaviour
 	private int itemIndex;
 	private Dictionary<ItemType, Image> categoryImages;
 	private Dictionary<ItemType, Image> categoryButtons;
+	private readonly ItemType[] categories = new ItemType[] { ItemType.Head, ItemType.Neck, ItemType.Middle, ItemType.Bottom };
 
 	void Start()
 	{
@@ -43,26 +44,32 @@ public class Wardrobe : MonoBehaviour
 		if (GlobalVariables.instance.Bottom)
 			Bottom.sprite = GlobalVariables.instance.Bottom.sprite;
 
-		categoryImages = new Dictionary<ItemType, Image>();
-		categoryImages.Add(ItemType.Head, Head);
-		categoryImages.Add(ItemType.Neck, Neck);
-		categoryImages.Add(ItemType.Middle, Middle);
-		categoryImages.Add(ItemType.Bottom, Bottom);
+		categoryImages = new Dictionary<ItemType, Image>
+		{
+			{ ItemType.Head, Head },
+			{ ItemType.Neck, Neck },
+			{ ItemType.Middle, Middle },
+			{ ItemType.Bottom, Bottom }
+		};
 
-		categoryButtons = new Dictionary<ItemType, Image>();
-		categoryButtons.Add(ItemType.Head, HeadCategory);
-		categoryButtons.Add(ItemType.Neck, NeckCategory);
-		categoryButtons.Add(ItemType.Middle, MiddleCategory);
-		categoryButtons.Add(ItemType.Bottom, BottomCategory);
+		categoryButtons = new Dictionary<ItemType, Image>
+		{
+			{ ItemType.Head, HeadCategory },
+			{ ItemType.Neck, NeckCategory },
+			{ ItemType.Middle, MiddleCategory },
+			{ ItemType.Bottom, BottomCategory }
+		};
 
 		ActivateCategory(ItemType.Head);
+
+		SwipeDetection.SwipeEvent += OnSwipe;
 	}
 
 	public void PutOn(Item item)
 	{
 		var oldItem = GlobalVariables.instance.GetItem(item.type);
 		if (oldItem)
-			PullOff(item);
+			PullOff(oldItem);
 		GlobalVariables.instance.SetItem(item);
 		categoryImages[item.type].sprite = item.sprite;
 		ApplyItem(item);
@@ -135,6 +142,35 @@ public class Wardrobe : MonoBehaviour
 			else
 				c.Value.color = Color.white;
 		}
+	}
+
+	public void OnSwipe(Vector2 direction)
+	{
+		if (direction == Vector2.right)
+			NextItem();
+		else if (direction == Vector2.left)
+			PreviousItem();
+		else
+		{
+			var catIndex = 0;
+			for (int i = 0; i < categories.Length; i++)
+			{
+				if (activeCategory == categories[i])
+				{
+					catIndex = i;
+					break;
+				}
+			}
+			if (direction == Vector2.up && catIndex > 0)
+				ActivateCategory(categories[catIndex - 1]);
+			else if (direction == Vector2.down && catIndex < categories.Length - 1)
+				ActivateCategory(categories[catIndex + 1]);
+		}
+	}
+
+	private void OnDestroy()
+	{
+		SwipeDetection.SwipeEvent -= OnSwipe;
 	}
 
 	#region Button handlers

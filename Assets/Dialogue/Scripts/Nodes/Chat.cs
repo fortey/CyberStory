@@ -21,6 +21,7 @@ namespace Dialogue
 			public string text;
 			public int cost;
 			//public AudioClip voiceClip;
+			public Feature requirement;
 		}
 
 		[System.Obsolete]

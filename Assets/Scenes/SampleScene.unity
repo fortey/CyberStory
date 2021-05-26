@@ -5074,6 +5074,7 @@ GameObject:
   - component: {fileID: 1629007439}
   - component: {fileID: 1629007438}
   - component: {fileID: 1629007440}
+  - component: {fileID: 1629007441}
   m_Layer: 5
   m_Name: Wardrobe Screen
   m_TagString: Untagged
@@ -5166,6 +5167,18 @@ MonoBehaviour:
   ItemDescription: {fileID: 1905405504}
   NextButton: {fileID: 1755357613}
   PreviousButton: {fileID: 1433358126}
+--- !u!114 &1629007441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629007436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c989cc6616bf5ed48b71ffc0b845102f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1682836456
 GameObject:
   m_ObjectHideFlags: 0
