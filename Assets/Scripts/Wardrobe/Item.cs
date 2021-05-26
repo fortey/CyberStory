@@ -14,10 +14,12 @@ public class Item : ScriptableObject
 	public string Description()
 	{
 		var desc = "";
-		foreach (var f in features)
+		for (int i = 0; i < features.Length - 1; i++)
 		{
-			desc += f.ToString() + "/n";
+			desc += features[i].ToString() + Environment.NewLine;
 		}
+		if (features.Length > 0)
+			desc += features[features.Length - 1].ToString();
 		return desc;
 	}
 }

@@ -6,11 +6,19 @@ using UnityEngine.UI;
 
 public class Wardrobe : MonoBehaviour
 {
+	[Header("Шмотки на персе")]
 	public Image Head;
 	public Image Neck;
 	public Image Middle;
 	public Image Bottom;
 
+	[Header("Кнопки категорий")]
+	public Image HeadCategory;
+	public Image NeckCategory;
+	public Image MiddleCategory;
+	public Image BottomCategory;
+
+	[Space]
 	public Image DescImage;
 	public Text ItemName;
 	public Text ItemDescription;
@@ -22,6 +30,7 @@ public class Wardrobe : MonoBehaviour
 	private Item[] items;
 	private int itemIndex;
 	private Dictionary<ItemType, Image> categoryImages;
+	private Dictionary<ItemType, Image> categoryButtons;
 
 	void Start()
 	{
@@ -39,6 +48,12 @@ public class Wardrobe : MonoBehaviour
 		categoryImages.Add(ItemType.Neck, Neck);
 		categoryImages.Add(ItemType.Middle, Middle);
 		categoryImages.Add(ItemType.Bottom, Bottom);
+
+		categoryButtons = new Dictionary<ItemType, Image>();
+		categoryButtons.Add(ItemType.Head, HeadCategory);
+		categoryButtons.Add(ItemType.Neck, NeckCategory);
+		categoryButtons.Add(ItemType.Middle, MiddleCategory);
+		categoryButtons.Add(ItemType.Bottom, BottomCategory);
 
 		ActivateCategory(ItemType.Head);
 	}
@@ -79,7 +94,7 @@ public class Wardrobe : MonoBehaviour
 
 	public void ActivateCategory(ItemType category)
 	{
-		if (activeCategory != category)
+		if (activeCategory != category || items == null)
 		{
 			activeCategory = category;
 			items = GlobalVariables.instance.items.Where(i => i.type == category).ToArray();
@@ -95,18 +110,13 @@ public class Wardrobe : MonoBehaviour
 			ShowDescription(item);
 		}
 		UpdateSwitchButtons();
+		UpdateCategoryButtons();
 	}
 
 	private void ShowDescription(Item item)
 	{
-		var desc = "";
-		foreach (var feature in item.features)
-		{
-			desc += feature.ToString() + "/n";
-		}
-
 		ItemName.text = item.itemName;
-		ItemDescription.text = desc;
+		ItemDescription.text = item.Description();
 		DescImage.sprite = item.sprite;
 	}
 
@@ -114,6 +124,17 @@ public class Wardrobe : MonoBehaviour
 	{
 		NextButton.interactable = itemIndex + 1 < items.Length;
 		PreviousButton.interactable = itemIndex > 0;
+	}
+
+	private void UpdateCategoryButtons()
+	{
+		foreach (var c in categoryButtons)
+		{
+			if (c.Key == activeCategory)
+				c.Value.color = new Color(1f, 0.8f, 1f);
+			else
+				c.Value.color = Color.white;
+		}
 	}
 
 	#region Button handlers

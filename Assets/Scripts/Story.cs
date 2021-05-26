@@ -43,7 +43,9 @@ public class Story : SceneGraph<DialogueGraph>
 
         MessageLabel.GetComponentInChildren<Text>().text = graph.current.text;
 
+#pragma warning disable CS0612 // Type or member is obsolete
         var answers = graph.current.answers;
+#pragma warning restore CS0612 // Type or member is obsolete
         if (answers.Count > 0)
         {
             //Choice1.SetActive(true);
