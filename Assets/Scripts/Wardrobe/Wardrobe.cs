@@ -72,32 +72,16 @@ public class Wardrobe : MonoBehaviour
 			PullOff(oldItem);
 		GlobalVariables.instance.SetItem(item);
 		categoryImages[item.type].sprite = item.sprite;
-		ApplyItem(item);
+		GlobalVariables.instance.ApplyItem(item);
 		ShowDescription(item);
 	}
 
 	public void PullOff(Item item)
 	{
-		ApplyItem(item, false);
+		GlobalVariables.instance.ApplyItem(item, false);
 	}
 
-	public void ApplyItem(Item item, bool isDonnig = true)
-	{
-		foreach (var feature in item.features)
-		{
-			switch (feature.characteristic)
-			{
-				case Characteristic.Hacking:
-					GlobalVariables.instance.Hacking += (isDonnig ? 1 : -1) * feature.value;
-					break;
-				case Characteristic.Disguise:
-					GlobalVariables.instance.Disguise += (isDonnig ? 1 : -1) * feature.value;
-					break;
-				default:
-					break;
-			}
-		}
-	}
+
 
 	public void ActivateCategory(ItemType category)
 	{
