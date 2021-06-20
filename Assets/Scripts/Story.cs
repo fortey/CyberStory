@@ -2,6 +2,7 @@ using Dialogue;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using XNode;
@@ -12,6 +13,7 @@ public class Story : SceneGraph<DialogueGraph>
 
 	public GameObject Characters;
 	public GameObject ChatUI;
+	public Color ShadowColor;
 
 	public GameObject NameLabel;
 	public GameObject AttitudeLabel;
@@ -19,6 +21,9 @@ public class Story : SceneGraph<DialogueGraph>
 	public ChoiceButton Choice1;
 	public ChoiceButton Choice2;
 	public GameObject ContinueButton;
+
+	private List<Dialogue.CharacterInfo> characters;
+	private Dialogue.CharacterInfo currentCharacter;
 
 	private void Awake()
 	{
@@ -38,9 +43,18 @@ public class Story : SceneGraph<DialogueGraph>
 
 	public void RefreshChat()
 	{
+
 		//if (graph.current is Chat)
 		//Chat chat = graph.current as Chat;
 		var character = graph.current.character;
+		if (currentCharacter != character)
+		{
+			if (character)
+				TurnOnOffCharacter(character, true);
+			if (currentCharacter)
+				TurnOnOffCharacter(currentCharacter, false);
+			currentCharacter = character;
+		}
 		if (character)
 		{
 			NameLabel.GetComponentInChildren<Text>().text = character.Name;
@@ -100,5 +114,52 @@ public class Story : SceneGraph<DialogueGraph>
 	public static void ContinueWithDelay(Func<IEnumerator> func)
 	{
 		instance.StartCoroutine(func());
+	}
+
+	public void InitializeCharacters(Dialogue.CharacterInfo[] characters)
+	{
+		this.characters = characters.ToList();
+		currentCharacter = null;
+
+		for (int i = 0; i < characters.Length; i++)
+		{
+			if (i >= Characters.transform.childCount)
+				break;
+
+			var charUI = Characters.transform.GetChild(i);
+			if (characters[i])
+			{
+				charUI.gameObject.SetActive(true);
+				var charImage = charUI.GetComponent<Image>();
+				charImage.sprite = characters[i].sprite;
+				charImage.color = ShadowColor;
+			}
+			else
+				charUI.gameObject.SetActive(false);
+		}
+	}
+
+	public void TurnOnOffCharacter(Dialogue.CharacterInfo character, bool on)
+	{
+		var index = characters.IndexOf(character);
+		if (index >= 0 && index < Characters.transform.childCount)
+		{
+			var charUI = Characters.transform.GetChild(index);
+			var startColor = on ? ShadowColor : Color.white;
+			var endColor = on ? Color.white : ShadowColor;
+			StartCoroutine(ChangeColor(startColor, endColor, charUI.GetComponent<Image>()));
+		}
+	}
+
+	public IEnumerator ChangeColor(Color startColor, Color endColor, Image charImage)
+	{
+		var time = 1f;
+		var scale = 1 / time;
+		while (time > 0f)
+		{
+			yield return new WaitForEndOfFrame();
+			time -= Time.deltaTime;
+			charImage.color = Color.Lerp(endColor, startColor, time * scale);
+		}
 	}
 }

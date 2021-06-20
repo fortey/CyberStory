@@ -46,5 +46,7 @@ public class LocationManager : MonoBehaviour
 			var color = BOImage.color;
 			BOImage.color = new Color(color.r, color.g, color.b, Mathf.Clamp(time * scale, 0f, 1f));
 		}
+
+		Blackout.SetActive(false);
 	}
 }

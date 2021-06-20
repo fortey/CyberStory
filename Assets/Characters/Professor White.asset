@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 595b6e687c9383247a02ecab226a472d, type: 3}
-  m_Name: GG
+  m_Name: Professor White
   m_EditorClassIdentifier: 
-  color: {r: 0.024474904, g: 0.4716981, b: 0.085054964, a: 0}
-  Name: "\u0421\u0435\u043B\u043B\u0438\u044F"
+  color: {r: 0.17007834, g: 0.61561656, b: 0.9245283, a: 0}
+  Name: "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u0423\u0430\u0439\u0442"
   attitude: 50
-  isHero: 1
+  isHero: 0
   sprite: {fileID: 21300000, guid: e7c20ed97fdb21f41bbe0957b43beb8b, type: 3}

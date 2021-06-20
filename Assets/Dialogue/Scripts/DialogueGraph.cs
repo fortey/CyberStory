@@ -17,7 +17,7 @@ namespace Dialogue
 		{
 			//Find the first DialogueNode without any inputs. This is the starting node.
 			//current = nodes.Find(x => x is Chat && x.Inputs.All(y => !y.IsConnected)) as Chat;
-			var startNode = nodes.FirstOrDefault(x => x is StartNode) as StartNode;
+			var startNode = nodes.FirstOrDefault(x => x is StartNode && x.Inputs.All(y => !y.IsConnected)) as StartNode;
 			if (startNode != null)
 				startNode.Trigger();
 		}

@@ -11,6 +11,7 @@ namespace Dialogue
 		public string Name;
 		public int attitude = 50;
 		public bool isHero;
+		public Sprite sprite;
 
 		public void ChangeAttitude(int amount)
 		{
