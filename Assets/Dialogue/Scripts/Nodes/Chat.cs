@@ -49,6 +49,7 @@ namespace Dialogue
 		public override void Trigger()
 		{
 			(graph as DialogueGraph).current = this;
+			Story.instance.RefreshChat();
 		}
 	}
 }

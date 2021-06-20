@@ -24,4 +24,4 @@ public class Item : ScriptableObject
 	}
 }
 
-public enum ItemType { Head, Neck, Middle, Bottom }
+public enum ItemType { Head, Neck, Middle, Bottom, Quest }

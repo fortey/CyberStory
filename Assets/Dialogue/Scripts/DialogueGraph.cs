@@ -11,7 +11,7 @@ namespace Dialogue
 	public class DialogueGraph : NodeGraph
 	{
 		[HideInInspector]
-		public Chat current;
+		public DialogueBaseNode current;
 
 		public void Restart()
 		{
@@ -24,10 +24,22 @@ namespace Dialogue
 
 		public Chat AnswerQuestion(int i)
 		{
+			var chat = current as Chat;
 #pragma warning disable CS0612 // Type or member is obsolete
-			current.AnswerQuestion(i);
+			chat.AnswerQuestion(i);
 #pragma warning restore CS0612 // Type or member is obsolete
-			return current;
+			//Story.instance.RefreshChat();
+			return chat;
+		}
+
+		public void Continue()
+		{
+			if (current is Chat)
+			{
+				AnswerQuestion(0);
+			}
+			else if (current is GettingItem)
+				(current as GettingItem).Continue();
 		}
 	}
 }

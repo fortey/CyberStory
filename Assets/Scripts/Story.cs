@@ -22,6 +22,8 @@ public class Story : SceneGraph<DialogueGraph>
 	public ChoiceButton Choice2;
 	public GameObject ContinueButton;
 
+	public GettingItemScreen gettingItemScreen;
+
 	private List<Dialogue.CharacterInfo> characters;
 	private Dialogue.CharacterInfo currentCharacter;
 
@@ -44,9 +46,10 @@ public class Story : SceneGraph<DialogueGraph>
 	public void RefreshChat()
 	{
 
-		//if (graph.current is Chat)
-		//Chat chat = graph.current as Chat;
-		var character = graph.current.character;
+		Chat chat = graph.current as Chat;
+		if (!chat) return;
+
+		var character = chat.character;
 		if (currentCharacter != character)
 		{
 			if (character)
@@ -69,10 +72,10 @@ public class Story : SceneGraph<DialogueGraph>
 			AttitudeLabel.SetActive(false);
 		}
 
-		MessageLabel.GetComponentInChildren<Text>().text = graph.current.text;
+		MessageLabel.GetComponentInChildren<Text>().text = chat.text;
 
 #pragma warning disable CS0612 // Type or member is obsolete
-		var answers = graph.current.answers;
+		var answers = chat.answers;
 #pragma warning restore CS0612 // Type or member is obsolete
 		if (answers.Count > 0)
 		{
@@ -101,14 +104,12 @@ public class Story : SceneGraph<DialogueGraph>
 		choice.Show(answer, () =>
 		{
 			graph.AnswerQuestion(index);
-			RefreshChat();
 		});
 	}
 
 	public void Continue()
 	{
-		graph.AnswerQuestion(0);
-		RefreshChat();
+		graph.Continue();
 	}
 
 	public static void ContinueWithDelay(Func<IEnumerator> func)
@@ -161,5 +162,11 @@ public class Story : SceneGraph<DialogueGraph>
 			time -= Time.deltaTime;
 			charImage.color = Color.Lerp(endColor, startColor, time * scale);
 		}
+	}
+
+	public void ShowGettingItem(Item item)
+	{
+		gettingItemScreen.image.sprite = item.sprite;
+		gettingItemScreen.gameObject.SetActive(true);
 	}
 }
